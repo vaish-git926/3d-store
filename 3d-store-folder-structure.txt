@@ -1,0 +1,20 @@
+3d-store/
+├─ config.php
+├─ index.php          (home + product listing)
+├─ product.php        (single product page)
+├─ cart.php           (view/update cart)
+├─ checkout.php       (payment page)
+├─ payment_verify.php (Razorpay callback)
+├─ download.php       (serve files after payment)
+├─ login.php
+├─ register.php
+├─ logout.php
+├─ /admin/
+│   ├─ index.php      (admin login / dashboard)
+│   └─ add_product.php
+├─ /assets/
+│   ├─ css/
+│   ├─ js/
+│   └─ images/        (thumbnails, logo, UI images)
+└─ /storage/
+    └─ products/      (ZIP files with 3D assets – NOT public via URL)
